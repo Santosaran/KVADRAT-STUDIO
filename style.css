@@ -1,0 +1,76 @@
+*{
+    padding: 0.6rem 0;
+}
+
+body{
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+}
+
+
+.section {
+    font-family: 'Oswald', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+  }
+
+.navbar-brand {
+    padding-top: var(--bs-navbar-brand-padding-y);
+    padding-bottom: var(--bs-navbar-brand-padding-y);
+    margin-right: var(--bs-navbar-brand-margin-end);
+    font-size: var(--bs-navbar-brand-font-size);
+    color: rgb(255 255 255 / 90%);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: #FFFFF;
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.title{
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.title-one{
+    font-size: 55px;
+    font-weight: 300;
+    padding: 0.8rem;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.form-control{
+    display: inline;
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: none;
+    
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #ffffff;
+    -webkit-appearance: none;
+    -moz-animation-delay: none;
+    appearance: none;
+}
+
